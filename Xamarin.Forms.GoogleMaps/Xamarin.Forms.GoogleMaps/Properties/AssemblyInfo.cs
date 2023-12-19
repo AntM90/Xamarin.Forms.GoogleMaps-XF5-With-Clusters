@@ -9,3 +9,5 @@ using Xamarin.Forms.Internals;
 // associated with an assembly.
 
 [assembly: Preserve]
+[assembly: InternalsVisibleTo("Xamarin.Forms.GoogleMaps.Android")]
+[assembly: InternalsVisibleTo("Xamarin.Forms.GoogleMaps.Clustering.Android")]
